@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="331dp">
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="284dp">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="271dp"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:text="通道1" />
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="20dp"
+                android:text="通道2" />
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:text="通道3" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
